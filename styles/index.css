@@ -111,33 +111,13 @@ p {
 
 /* Layout */
 body {
-  background: rgb(204,204,204); 
+  background: white;
   width: 21cm;
   height: 29.7cm;
   margin: 0 auto;
 }
 
-/* Printing */
-page {
-  background: white;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 0.5cm;
-}
 
-page[size="A4"] {  
-  width: 21cm;
-  height: 29.7cm; 
-}
-
-@page {
-   size: 21cm 29.7cm;
-   padding: 0;
-   margin: 0mm;
-   border: none;
-   border-collapse: collapse;
-}
-/* End Printing */
 
 .container {
   display: flex;
